@@ -11,6 +11,7 @@ const VideoDetail = ({ video }) => {
         <iframe
           title={video.snippet.title}
           src={`https://www.youtube.com/embed/${video.id.videoId}`}
+          allowFullScreen
         />
       </div>
       <div className="ui segment">
